@@ -3,9 +3,10 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-      nurjigit got
+      Navbar
     </div>
   )
 }
 
 export default Navbar
+ 

@@ -8,3 +8,4 @@ git push origin master
 git pull origin master
 // получение внесенных изменений из github
 
+//
