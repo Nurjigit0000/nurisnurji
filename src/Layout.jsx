@@ -2,17 +2,17 @@ import React from 'react'
 import Header from './pages/header/Header'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home/Home'
-import Navbar from './components/Navbar';
 import Footer from './pages/footer/Footer';
+import AboutUs from './pages/home/AboutUs';
 
 const Layout = () => {
   return (
     <BrowserRouter>
-      <div id='Layout'>
+      <div>
         <Header />
-        <Navbar />
         <Routes> 
           <Route path="/" element={<Home />} />
+          <Route path='/about-us' element={<AboutUs />} />
         </Routes>
         <Footer />
       </div>
@@ -20,4 +20,4 @@ const Layout = () => {
   )
 }
 
-export default Layout
+export default Layout 
