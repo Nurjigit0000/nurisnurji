@@ -10,10 +10,8 @@ const Register = () => {
       <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-8 rounded-lg shadow-md z-20'>
         <h1 className='font-lato text-28 font-bold leading-42 text-center'>Sign up</h1>
         <form>
-          {/* Form fields */}
         </form>
       </div>
-      {/* The sign-up form */}
     </div> 
   );
 }
